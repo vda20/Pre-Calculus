@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <macros>
+      \newcommand{\R}{\mathbb R}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+    </latex-image-preamble>
+  </docinfo>
+
+  <book xml:id="my-great-book">
+    <title>Pre-Calculus</title>
+    <subtitle>Math 1030/1030-I</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Valerio De Angelis</personname>
+          <department>Mathematics Department</department>
+          <institution>Xavier University of Louisiana</institution>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <website>
+          <name>
+            <c>example.org</c>
+          </name>
+          <address>https://example.org</address>
+        </website>
+
+        <copyright>
+          <year>2020<ndash />2023</year>
+          <holder>You</holder>
+          <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+    </frontmatter>
+<chapter xml:id="chapter-title">
+      <title>Functions and graphs</title>
+
+      <section xml:id="section1.1">
+        <title>Description of functions</title>
+        <p>
+          
+           A <em>relation</em> is a collection of pairs. 
+    <example>
+<m>\{(1,x),(3,t),(1,y),(4,y)\}</m>
+ is a relation.
+</example>
+
+The set of all first entries of the pairs in a relation is
+    called the <em>domain</em>, and the set of all second entries 
+    is called the <em>range</em>. We will denote them by <m>D</m> and <m>R</m>, respectively.
+ <example> 
+    <ol marker="a">
+    <li>
+    The relation <m>\{(1,x),(3,t),(1,y),(4,y)\}</m>
+    has domain 
+    <m>D=\{ 1,3,4\}</m> and range <m>R=\{x,t,y\}</m> 
+    (remember that
+  when listing the elements of a set, we never repeat the same element twice).
+   </li>   
+    <li>
+The relation <m> \{(0,c),(1,d),(2,c),(3,e),(4,a),(5,f)\}</m> has
+domain
+<m>D=\{0,1,2,3,4,5\}</m> and range <m>R=\{a,c,d,e,f\}</m> 
+</li>
+<li>
+The relation <m>\{ (1,1), (2,1), (3,1), (2,1)\}</m> has domain <m>D=\{1,2,3\}</m>
+and range <m>R=\{1\}</m>.
+</li></ol>
+  </example>
+Note that in part a. of the previous example, we can find
+two pairs that have the same first entry, 
+but different second entries: <m>(1,x)</m> and <m>(1,y)</m>.
+But this is not the case for parts b. and c. In these relations, 
+for every element of the domain,
+there is only one element of the range that is paired with it.
+So we can think of the relations in b. and c. as <em>rules</em>: 
+if we are given the first entry, we can determine the second one.
+Such relations are called <em>functions</em>.
+               <definition>
+A <em>function</em> <m>f</m> from a set <m>A</m> to a set <m>B</m> 
+is a relation that provides a rule for matching each element of the domain <m>A</m>
+ with exactly one element of the range <m>B</m>.
+</definition>
+So relations b. and c. in the last example are functions, but a. is not.
+Note that in part c. we had the two identical pairs <m>(2,1)</m> and <m>(2,1)</m>. 
+This is OK for a function, because even though the first entries are the same, 
+so are the second entries. We are just 
+repeating twice the same rule: given <m>2</m>, we get <m>1</m>.
+</p>
+<subsection>
+  <title> Functions from diagrams</title>
+  <p>
+    Since a function pairs  each element of the domain with  <b>only one</b>  element of the range,
+    we can picture it by drawing an arrow from each element of the domain to the
+    corresponding entry of the range, as in the following diagram:   
+<image source="U1F1.jpg" width="60%"/>
+
+
+
+          </p>
+      </subsection>
+      </section>
+
+    </chapter>
+
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <colophon>
+        <p> This book was authored in <pretext />. </p>
+      </colophon>
+
+    </backmatter>
+
+  </book>
+</pretext>
