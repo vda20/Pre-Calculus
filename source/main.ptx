@@ -45,13 +45,14 @@
         </copyright>
       </colophon>
     </frontmatter>
+
 <chapter xml:id="chapter-title">
+  
       <title>Functions and graphs</title>
 
       <section xml:id="section1.1">
         <title>Description of functions</title>
         <p>
-          
            A <em>relation</em> is a collection of pairs. 
     <example>
 <m>\{(1,x),(3,t),(1,y),(4,y)\}</m>
@@ -120,9 +121,8 @@ is not in the range, because there is no element of the domain that is paired wi
 element of the domain sent to two different elements of the range. But it is OK to 
     have two or more elements of the domain sent
 to the same element of the range (like the element <m>c</m> in the figure above).
-
-
-  
+</p>
+<p>
     To remember this, think of the domain of a function as a set of people, and the range as a 
     set of birthdays.
 Each person must have a unique  birthday (a person cannot be born twice!) but it is 
