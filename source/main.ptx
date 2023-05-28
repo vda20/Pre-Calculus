@@ -141,6 +141,89 @@ An element of the domain is also called an <em>input</em> value, and an element 
 
           </p>
       </subsection>
+
+
+<subsection>
+  <title>Functions from tables</title>
+  <p>
+A common way to describe a function is to make a table that lists the domain elements in a 
+row, with the corresponding range elements below, as in the following example.
+</p>
+<p>
+<example> The following table describes a function with domain <m>D=\{1,2,3,4,5\}</m> and range <m>R=\{0,1,4,5,8\}</m>.
+
+<tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell right="minor"> <m>x</m></cell>
+      <cell> <m>1</m></cell>
+      <cell> <m>2</m></cell>
+      <cell> <m>3</m></cell>
+      <cell><m>4</m></cell>
+      <cell><m>5</m></cell>
+    </row>
+    <row>
+      <cell right="minor"> <m>y</m></cell>
+      <cell> <m>8</m></cell>
+      <cell> <m>5</m></cell>
+      <cell><m>4</m></cell>
+      <cell><m>1</m></cell>
+      <cell> <m>0</m></cell>
+    </row>
+  </tabular>
+</example>
+</p>
+
+<p>
+Sometimes it may be more convenient to list the elements as columns instead of rows, 
+with the domain elements on the left. So the function of the previous example would be:
+<tabular halign="center">
+  <row bottom="minor">
+    <cell right="minor"><m>x</m> </cell><cell><m>y</m> </cell>
+  </row>
+  <row >
+    <cell right="minor"><m>1</m> </cell><cell><m>8</m> </cell>
+  </row>
+  <row >
+    <cell right="minor"><m>2</m> </cell><cell><m>5</m> </cell>
+  </row>
+  <row >
+    <cell right="minor"><m>3</m> </cell><cell><m>4</m> </cell>
+  </row>
+  <row >
+    <cell right="minor"><m>4</m> </cell><cell><m>1</m> </cell>
+  </row>
+  <row >
+    <cell right="minor"><m>5</m> </cell><cell><m>0</m> </cell>
+  </row>
+</tabular>
+</p>
+</subsection>
+
+<subsection>
+  <title>Square roots and cube roots</title>
+</subsection>
+<p>
+If we square <m>3</m>, we get <m>3^2=9</m>, and so we often say <q>The square root of <m>9</m> is <m>3</m></q>.
+But this isn't quite right, because if we square <m>-3</m> we get <m>9</m> as well: <m>(-3)^2=9</m>. So to be
+precise we should say <q><alert>A</alert> square root of <m>9</m> is <m>3</m> (and another one is <m>-3</m>)</q> 
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </section>
 
     </chapter>
