@@ -49,7 +49,8 @@
     <!-- <divisions part-structure="decorative" chapter-start="1" level="3"/> -->
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
-    <!-- @level on divisions above.                                   -->
+    <!-- @level on divisions above.  
+   -->
     <blocks level="2" />
     <projects level="2" />
     <equations level="2" />
@@ -96,6 +97,7 @@
       exercise-divisional="no"
       exercise-worksheet="no"
       exercise-readingquestion="no"
+      problem="no"
     />
     <!-- Specify the style of the html by giving names to      -->
     <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
