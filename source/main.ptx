@@ -9,6 +9,8 @@
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
+    <rename element="section">Unit</rename>
+    <rename element="project">Matched Problem</rename>
   </docinfo>
 
   <book xml:id="my-great-book">
@@ -349,20 +351,23 @@ define <m>x</m> as a function of <m>y</m>.
 While the most common name for the input variable is <m>x</m>, and the most common name for the output
 variable is <m>y</m>, it is important to bear in mind that any names can be used for either variable. So 
 it is quite possible to have an equation that determines <m>x</m> as a function of <m>y</m> (see for example Problem 1.1.3).
+XXXXXXXX
 </p>
 </subsection>
 
 <subsection>
   <title>Problems</title>
   <p>
-    <problem>
+    <list>
       Decide if the diagrams define functions, and give the domain and range for each function.
-    </problem>
+    </list>
   </p>
+  <p>
+  <project>
+    First Matched Problem
+  </project>
+</p>
 </subsection>
-
-
-
 
 
 
