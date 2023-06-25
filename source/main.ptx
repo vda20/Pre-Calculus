@@ -84,7 +84,7 @@ and range <m>R=\{1\}</m>.
   </p>
   <p>
 Note that in part a. of the last example, we can find
-two pairs that have the same first entry, 
+two pairs that have the same first entry,    
 but different second entries: <m>(1,x)</m> and <m>(1,y)</m>.
 But this is not the case for parts b. and c. In these relations, 
 for every element of the domain,
