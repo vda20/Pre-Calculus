@@ -11,6 +11,7 @@
     </latex-image-preamble>
     <rename element="section">Unit</rename>
     <rename element="project">Matched Problem</rename>
+     <rename element="exercises">Problems</rename>
   </docinfo>
 
   <book xml:id="my-great-book">
@@ -351,25 +352,16 @@ define <m>x</m> as a function of <m>y</m>.
 While the most common name for the input variable is <m>x</m>, and the most common name for the output
 variable is <m>y</m>, it is important to bear in mind that any names can be used for either variable. So 
 it is quite possible to have an equation that determines <m>x</m> as a function of <m>y</m> (see for example Problem 1.1.3).
-XXXXXXXX
 </p>
 </subsection>
 
-<subsection>
-  <title>Problems</title>
-  <p>
-    <list>
-      Decide if the diagrams define functions, and give the domain and range for each function.
-    </list>
-  </p>
-  <p>
-  <project>
-    First Matched Problem
-  </project>
-</p>
-</subsection>
-
-
+    <exercises>
+      <exercise>><p>
+        <task><title>Problem</title><p>Decide if the diagrams define functions, and give the domain and range for each function.</p></task>
+        <task><title>Matched Problem</title> <p>Decide if the diagram...</p></task></p>
+      </exercise>
+    </exercises>
+  
 
 
 
